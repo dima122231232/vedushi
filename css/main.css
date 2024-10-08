@@ -877,6 +877,7 @@ input:focus,textarea:focus{
     text-align: end;
     font-size:calc(var(--index)*1);
     opacity: 0;
+    font-family: 'Cygre-Black', sans-serif;
   }
   .div__Mac-num.mac,.div__Mac-text.mac{
     display:none;
