@@ -13,7 +13,7 @@ ScrollTrigger.matchMedia({
       });
 
       gsap.fromTo('.imgBlock3__div-3', {width: "5%"}, {width: "70%",duration:.6, scrollTrigger: {trigger: '.imgBlock3__div-3', start: 145*vh,end:155*vh}});
-      gsap.fromTo('.imgBlock3__img', {height: "100%"}, {height: "110%",duration:.5,delay:.5, scrollTrigger: {trigger: '.imgBlock3__img', start: 145*vh,end:155*vh}});
+      gsap.fromTo('.imgBlock3__img', {height: "100%"}, {height: "100%",duration:.5,delay:.5, scrollTrigger: {trigger: '.imgBlock3__img', start: 145*vh,end:155*vh}});
       gsap.to('.conteiner__block-3', {opacity:1,duration:.5, scrollTrigger: {trigger: '.conteiner__block-3', start: 145*vh,end:155*vh}});
       gsap.fromTo('.FAKE__SECTION3', {height: "100vh"}, {height: "0vh",duration:.1,delay:1, scrollTrigger: {trigger: '.imgBlock3__img', start: 145*vh,end:155*vh}});
     },

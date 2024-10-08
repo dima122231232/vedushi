@@ -374,7 +374,7 @@ a {
     display: block;
     clip-path: polygon(-10% 0, 110% 0, 110% 100%, -10% 100%);
     font-family: 'Cygre-Black', sans-serif;
-    font-size:9vw;
+    font-size:8vw;
 }
 
 .no_div-block2-1,.no_div-block2-2,.no_div-block2-3,.no_div-block2-4,.no_div-block2-5,.no_div-block2-6{
@@ -388,7 +388,7 @@ a {
     height:10vw;
 }
 .block__2_img {
-    width:9vw;
+    width:8vw;
     margin: 0 0vw;
 }
 .i7{
