@@ -179,7 +179,7 @@ ScrollTrigger.matchMedia({
                     gsap.to(".div__number", { duration: 0.5, top: -4.5 });
                     break;
                 case 5:
-                    h2Num.textContent = "НОВЫЙ ГОД";
+                    h2Num.textContent = "НОВОГОДНИЕ СОБЫТИЯ";
                     button.onclick = () => window.open('../html/section3__DOB/sek3__5.html', '_blank');
                     gsap.to(".div__number", { duration: 0.5, top: -6 });
                     break;
