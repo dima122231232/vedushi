@@ -95,7 +95,7 @@ ScrollTrigger.matchMedia({
     }
 }
 if (navigator.platform.toLowerCase().includes('mac') && navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) {
-    document.querySelector(".MAC-safari").style.display='block';
+    document.querySelector(".MAC-safari").style.display='flex';
 }
 if (document.body.classList.contains('mac')) {
     document.querySelector(".header__osnova_item-MAC").style.display='block';
