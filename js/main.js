@@ -97,8 +97,12 @@ ScrollTrigger.matchMedia({
 if (document.body.classList.contains('mac')) {
     document.querySelector(".header__osnova_item-MAC").style.display='block';
     document.querySelector(".header__osnova_item-MAC-t").style.display='block';
-    document.querySelector(".div__Mac-num").style.display='none';
-    document.querySelector(".div__Mac-text").style.display='none';
+    const elements = document.querySelectorAll(".div__Mac-num, .div__Mac-text, .polosa1, .polosa2, .block5__items-soz");
+    elements.forEach(element => {
+        element.style.display = 'none';
+    });
+
+    
     gsap.to('.header__osnova_item-MAC', {duration: 1,opacity: 1,delay:1});
     gsap.to('.header__osnova_item-MAC-t', {duration: 1,opacity: 1,delay:1});
 }
