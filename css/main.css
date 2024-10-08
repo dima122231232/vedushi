@@ -895,4 +895,5 @@ input:focus,textarea:focus{
     z-index: 999999999999999999;
     text-align: center;
     display: none;
+    padding-top: 10vh;
   }
