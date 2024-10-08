@@ -83,7 +83,6 @@ html, body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    top: calc(var(--index)*-.3);
     width: calc(var(--index)*5);
     margin-left:5vw;
     opacity:0;
@@ -857,4 +856,30 @@ input:focus,textarea:focus{
     font-family: 'Cygre-Black', sans-serif;
     font-size: 1.5vw!important;
     margin-top:40px!important;
+  }
+  
+
+  /* MAC */
+
+  .header__osnova_item-MAC{
+    font-size:calc(var(--index)*1);
+    font-family: 'Cygre-Black', sans-serif;
+    margin-left: 14vw;
+    opacity: 1;
+    display: none;
+  }
+.header__osnova_item-MAC,.header__osnova_item-MAC-t{
+    display: none;
+  }
+  
+  .header__osnova_item-MAC-t{
+    width: 100%;
+    text-align: end;
+    font-size:calc(var(--index)*1);
+  }
+  .div__Mac-num.mac,.div__Mac-text.mac{
+    display:none;
+  }
+  .header__osnova_item-MAC.mac,.header__osnova_item-MAC-t.mac{
+    display: block;
   }

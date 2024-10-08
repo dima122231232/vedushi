@@ -1,3 +1,6 @@
+if (navigator.userAgent.indexOf('Macintosh') !== -1) {
+    document.body.classList.add('mac');
+}
 gsap.fromTo('.text-osnova',{opacity:1,scale:1},{scale:1.25,opacity:0,scrollTrigger:{trigger:'.text-osnova',start: 0*vh,end:100*vh,scrub:true}})
 ScrollTrigger.matchMedia({
     "(max-width: 769px)": function() {
@@ -90,4 +93,8 @@ ScrollTrigger.matchMedia({
         on.style.display = 'block';
         off.style.display = 'none';
     }
+}
+if (document.body.classList.contains('mac')) {
+    gsap.to('.header__osnova_item-MAC', {duration: 1,opacity: 1,delay:1});
+    gsap.to('.header__osnova_item-MAC-t', {duration: 1,opacity: 1,delay:1});
 }
