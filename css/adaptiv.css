@@ -5,6 +5,9 @@
  
 }
 @media (max-width: 769px) {
+    .a3{
+     width: 85%;
+    }
     #muteButton{
         top: calc(var(--index)*2.5);
         left:calc(var(--index)*2.5);

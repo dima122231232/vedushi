@@ -145,7 +145,6 @@ ScrollTrigger.matchMedia({
         gsap.fromTo(".imgBlock4-9", {rotate: "0deg"}, {rotate: "180deg", scrollTrigger: {trigger: '.item__block4-1', start: 280*vhh,end:640*vhh, scrub: true}});
 
         // 5 PHOTO-------------------------------------
-        gsap.to(".blImg1,.blImg2,.blImg3,.blImg4,.blImg5", {duration: .5,height:"100%"});
         let activeIndex = 3;
         const allDivs = [1, 2, 3, 4, 5];
         const updateLayout = (index) => {
