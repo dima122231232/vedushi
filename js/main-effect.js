@@ -150,7 +150,7 @@ ScrollTrigger.matchMedia({
         const allDivs = [1, 2, 3, 4, 5];
         const updateLayout = (index) => {
             activeIndex = index;
-            gsap.to(`.imgBlock3__div-${activeIndex}`, { duration: 0.5, width: "70%", opacity: 1 });
+            gsap.to(`.imgBlock3__div-${activeIndex}`, { duration: 0.5, width: "100%", opacity: 1 });
             gsap.to(`.imgBlock3__div-${activeIndex - 1}, .imgBlock3__div-${activeIndex + 1}`, { duration: 0.5, width: "10%", opacity: 0.2 });
             gsap.to(allDivs.filter(i => i !== activeIndex && i !== activeIndex - 1 && i !== activeIndex + 1)
               .map(i => `.imgBlock3__div-${i}`), { duration: 0.5, width: "0%", opacity: 0 });
