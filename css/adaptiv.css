@@ -146,7 +146,7 @@
       }
       .swiper-slide img {
         width: 80vw;
-        height: 80vw;
+        height: 60vw;
         transition:0.3s ease;
       }
       
@@ -388,10 +388,11 @@ a {
     align-items: center;
     width:90vw;
     margin-left:5vw;
-    height:10vw;
+    height:8.5vw;
 }
 .block__2_img {
-    width:8vw;
+    height:8vw;
+    width:7vw;
     margin: 0 0vw;
 }
 .i7{
