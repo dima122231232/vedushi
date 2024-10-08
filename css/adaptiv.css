@@ -190,7 +190,6 @@
     }
     .page2__section2 img{
         width:62vw;
-        height: 62vw;
         margin:calc(var(--index)*1) 0;
     }
     
