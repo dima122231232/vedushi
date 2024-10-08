@@ -278,7 +278,7 @@ document.querySelector('.imgBlock3__div-5').addEventListener('mouseenter', () =>
 
 
         // Block__2_img--------------------------------------------------
-        const elements = ['.i1', '.i2', '.i3', '.i4', '.i5', '.i6', '.i7'];
+        const elements = ['.i0','.i1', '.i2', '.i3', '.i4', '.i5', '.i6', '.i7'];
 
         elements.forEach(selector => {
         const element = document.querySelector(selector);
