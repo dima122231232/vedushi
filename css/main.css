@@ -2,9 +2,6 @@ body{background-color:#000;font-family: 'Cygre', sans-serif;color: #fff; overflo
 :root{--index:calc(1vw + 1vh);--red:#aa0000;--grean:#39A845;}
 ::selection {background: var(--red);}::-moz-selection {background:var(--red);}
 *{margin: 0;padding: 0;box-shadow: none;}
-::-webkit-scrollbar {
-    width: 20vw;
-}
 a{
     text-decoration: none;
 }
@@ -29,7 +26,17 @@ html, body {
     scrollbar-width: thin;
     scrollbar-color: #444 #1e1e1e;
 }
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
 
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+}
 /* HEADER-------------------------- */
 .header__osnova_items a{
     color: #fff;
