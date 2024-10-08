@@ -100,7 +100,7 @@ if (navigator.platform.toLowerCase().includes('mac') && navigator.userAgent.incl
 if (document.body.classList.contains('mac')) {
     document.querySelector(".header__osnova_item-MAC").style.display='block';
     document.querySelector(".header__osnova_item-MAC-t").style.display='block';
-    const elements = document.querySelectorAll(".div__Mac-num, .div__Mac-text");
+    const elements = document.querySelectorAll(".div__Mac-num, .div__Mac-text,.never,.div__numbers");
     elements.forEach(element => {
         element.style.display = 'none';
     });

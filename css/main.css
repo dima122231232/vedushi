@@ -681,6 +681,7 @@ html, body {
     font-size: calc(var(--index)*2);
     font-family: 'Cygre-Black', sans-serif;
     width:calc(var(--index)*30);
+    line-height:calc(var(--index)*2);
 }
 .block5__items-soz {
     display: flex;
@@ -895,5 +896,4 @@ input:focus,textarea:focus{
     z-index: 999999999999999999;
     text-align: center;
     display: none;
-    padding-top: 10vh;
   }
