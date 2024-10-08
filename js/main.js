@@ -94,10 +94,13 @@ ScrollTrigger.matchMedia({
         off.style.display = 'none';
     }
 }
+if (navigator.platform.toLowerCase().includes('mac') && navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) {
+    document.querySelector(".MAC-safari").style.display='block';
+}
 if (document.body.classList.contains('mac')) {
     document.querySelector(".header__osnova_item-MAC").style.display='block';
     document.querySelector(".header__osnova_item-MAC-t").style.display='block';
-    const elements = document.querySelectorAll(".div__Mac-num, .div__Mac-text, .polosa1, .polosa2, .block5__items-soz");
+    const elements = document.querySelectorAll(".div__Mac-num, .div__Mac-text");
     elements.forEach(element => {
         element.style.display = 'none';
     });

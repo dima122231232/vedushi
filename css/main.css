@@ -860,7 +860,6 @@ input:focus,textarea:focus{
   
 
   /* MAC */
-
   .header__osnova_item-MAC{
     font-size:calc(var(--index)*1);
     font-family: 'Cygre-Black', sans-serif;
@@ -883,4 +882,17 @@ input:focus,textarea:focus{
   }
   .header__osnova_item-MAC.mac,.header__osnova_item-MAC-t.mac{
     display: block;
+  }
+  .MAC-safari{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999999999999;
+    text-align: center;
+    display: none;
   }
