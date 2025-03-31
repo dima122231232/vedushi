@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Cygre';
+    src: url('../fonts/Cygre-Medium.ttf') format('woff2'),
+         url('../fonts/Cygre-Medium.otf') format('otf');
+  }
+  @font-face {
+    font-family: 'Cygre-Black';
+    src: url('../fonts/Cygre-Black.ttf') format('woff2'),
+         url('../fonts/Cygre-Black.otf') format('otf');
+  }
